@@ -1,0 +1,242 @@
+/*
+  Eaterie Template
+  Veggie - Color Scheme
+ 
+*/
+
+/*________  brown  ________  */
+
+.pager li>a:hover,
+.pager li>a,
+.pager li>span,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.blog-tags a:hover,
+.blog-tags a:focus,
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.list-group-item,
+.nav-pills>li>a,
+.nav.nav-tabs>li>a,
+.img-hover,
+.label.default,
+.btn-default.focus,
+.btn-default:focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.navbar ul.ul-button .btn.btn-primary,
+.btn-default,
+.btn-primary,
+.spinner>div,
+.navbar,
+.section-heading,
+.panel-heading a:hover,
+.panel-heading a:focus,
+.panel-heading a,
+.panel-heading a.collapsed:hover,
+.panel-heading a.collapsed:focus,
+.bg-color1,
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse,
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover,
+.our-team3:hover .social li a {
+	background-color: #38191E;
+}
+
+.media-heading small,
+hr,
+.hr,
+a,
+i,
+.social-media a i,
+.back-to-top i:hover,
+.social-media a i:hover,
+.nav .open>a,
+.nav .open>a:hover,
+.text-color1,
+.our-team1 .team-caption h6,
+.our-team3 .post{
+	color: #38191E;
+}
+
+.small-heading,
+.search-group .form-control,
+.breadcrumb,
+.img-blog img:hover,
+#elements h3.sub-header,
+.btn:before,
+.btn:after,
+.panel-heading a,
+.form-control:focus{
+	border-color: #38191E;
+}
+
+
+/*________  Wine Red ________  */
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-primary:hover,
+.btn-default:hover,
+.navbar ul.ul-button .btn.btn-secondary:hover,
+.navbar ul.ul-button .btn.btn-secondary:focus,
+.navbar ul.ul-button .btn.btn-primary:hover,
+.navbar ul.ul-button .btn.btn-primary:focus,
+.bg-color3,
+.table>thead>tr>th,
+.panel-heading a.collapsed,
+.date-category,
+.nav .dropdown-menu>li>a:focus,
+.nav .dropdown-menu>li>a:hover,
+.nav .dropdown-menu li:hover,
+.our-team3:hover .pic,
+.our-team4 .team-content,
+.bg-primary,
+.navbar-custom ul.nav li a:hover
+{
+	background-color: #881D2D;
+}
+
+.our-team1 .pic img,
+blockquote,
+.our-team4 .pic{
+	border-color: #881D2D;
+}
+
+.text-color3,
+h3,
+.jumbotron .h1,
+.post-info i,
+.navbar-toggle:hover i,
+.slick-prev:before,
+.slick-next:before {
+	color: #881D2D;
+}
+
+
+/*________  Green ________  */
+
+.smaller.social-media a i:hover,
+a:hover,
+a:focus,
+.page-header h2,
+.small-heading,
+.bounce1:after,
+h2,
+h1,
+ul.custom li:before,
+.menu-item-price,
+blockquote:before,
+.jumbotron .breadcrumb li a,
+.testimonial .description::before,
+.our-team2 .post,
+footer a,
+.our-team4:hover .team-content:before{
+
+	color: #bbbb23;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover,
+.nav-pills .nav>li>a:focus,
+.pager li>a:hover,
+.pager li>a:focus,
+.blog-tags a,
+.pagination>li>a,
+.pagination>li>span,
+.nav-pills>li.active>a,
+.nav.nav-pills>li>a:focus,
+.nav.nav-pills>li>a:hover,
+.nav.nav-pills>li>.active,
+.nav.nav-tabs>li.active>a,
+.nav.nav-tabs>li.active>a:focus,
+.nav.nav-tabs>li.active>a:hover,
+.nav.nav-tabs>li>a:hover,
+.input-group.date .input-group-addon,
+.bg-color2,
+.alert.alert-info,
+.back-to-top,
+.dropdown-menu,
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+.btn-secondary,
+.navbar ul.ul-button .btn.btn-secondary,
+.smaller.social-media a i,
+.our-team2 .social,
+.our-team4:hover .team-content:before,
+.our-team4 .team-content:before,
+.our-team4 .social li a:before,
+.navbar-custom .nav>.active>a
+{
+	background-color: #bbbb23;
+}
+
+.elements h5,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover,
+select.form-control,
+.modal-content,
+.form-control,
+select.form-control,
+input[type="checkbox"],
+input[type=radio],
+.blog-single,
+.sub-heading span,
+.our-team1:hover .pic img,
+.well,
+.testimonial .pic,
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th,
+.table-bordered,
+#map-canvas,
+.divider-border {
+	border-color: #bbbb23;
+}
+
+.text-color2 {
+	color: #bbbb23;
+}
+/*________  Light Green  ________  */
+
+
+.bg-color2-secondary
+{
+	background-color: #f7f7c2;
+}
+
+/*________  Light Gray  ________  */
+
+.bg-lightcolor1,
+.our-team1 .team-caption,
+.feature,
+.blog-single,
+blockquote,
+.comment-form.media {
+	background: #f5f4f4;
+}
+
+.jumbotron,
+#elements h5.sub-header,
+.img-circle,
+.blog-single,
+.sidebar,
+.accordion-group,
+.comment {
+	border-color: #f5f4f4;
+}

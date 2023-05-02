@@ -1,0 +1,151 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/07/2018 15:09
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-marker-1:before { content: "\f100"; }
+.flaticon-map:before { content: "\f101"; }
+.flaticon-marker:before { content: "\f102"; }
+.flaticon-mail-envelope:before { content: "\f103"; }
+.flaticon-open-letter:before { content: "\f104"; }
+.flaticon-speech-bubble:before { content: "\f105"; }
+.flaticon-school-pencil:before { content: "\f106"; }
+.flaticon-arrow:before { content: "\f107"; }
+.flaticon-head:before { content: "\f108"; }
+.flaticon-chat:before { content: "\f109"; }
+.flaticon-alert:before { content: "\f10a"; }
+.flaticon-gift:before { content: "\f10b"; }
+.flaticon-book-hand-drawn-open-pages:before { content: "\f10c"; }
+.flaticon-chicken-hand-drawn-outline:before { content: "\f10d"; }
+.flaticon-salad-bowl-hand-drawn-food:before { content: "\f10e"; }
+.flaticon-salad-1:before { content: "\f10f"; }
+.flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before { content: "\f110"; }
+.flaticon-plate-fork-and-knife:before { content: "\f111"; }
+.flaticon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle:before { content: "\f112"; }
+.flaticon-pizza-1:before { content: "\f113"; }
+.flaticon-crepe:before { content: "\f114"; }
+.flaticon-knife:before { content: "\f115"; }
+.flaticon-ice-cream:before { content: "\f116"; }
+.flaticon-meat-1:before { content: "\f117"; }
+.flaticon-kitchen:before { content: "\f118"; }
+.flaticon-wine:before { content: "\f119"; }
+.flaticon-cooking:before { content: "\f11a"; }
+.flaticon-croisant:before { content: "\f11b"; }
+.flaticon-taco:before { content: "\f11c"; }
+.flaticon-burger-and-potatoes:before { content: "\f11d"; }
+.flaticon-restaurant:before { content: "\f11e"; }
+.flaticon-coffe-cup:before { content: "\f11f"; }
+.flaticon-cheese:before { content: "\f120"; }
+.flaticon-chef:before { content: "\f121"; }
+.flaticon-salad:before { content: "\f122"; }
+.flaticon-meat:before { content: "\f123"; }
+.flaticon-dish:before { content: "\f124"; }
+.flaticon-muffin:before { content: "\f125"; }
+.flaticon-cupcake:before { content: "\f126"; }
+.flaticon-rice:before { content: "\f127"; }
+.flaticon-spaghetti:before { content: "\f128"; }
+.flaticon-fast-foot:before { content: "\f129"; }
+.flaticon-pizza:before { content: "\f12a"; }
+.flaticon-coffee-and-croisant:before { content: "\f12b"; }
+.flaticon-marmalade:before { content: "\f12c"; }
+.flaticon-sushi:before { content: "\f12d"; }
+.flaticon-thigh:before { content: "\f12e"; }
+.flaticon-cake:before { content: "\f12f"; }
+.flaticon-mushroom:before { content: "\f130"; }
+.flaticon-bacoon-and-egg:before { content: "\f131"; }
+.flaticon-watermellon:before { content: "\f132"; }
+.flaticon-map-sketch-with-a-placeholder:before { content: "\f133"; }
+.flaticon-speech-bubble-sketch:before { content: "\f134"; }
+.flaticon-halloween-october-31-calendar-page-sketch:before { content: "\f135"; }
+.flaticon-sketch:before { content: "\f136"; }
+.flaticon-arrow-point-hand-drawn-outline-pointing-to-right-direction:before { content: "\f137"; }
+    
+    $font-Flaticon-marker-1: "\f100";
+    $font-Flaticon-map: "\f101";
+    $font-Flaticon-marker: "\f102";
+    $font-Flaticon-mail-envelope: "\f103";
+    $font-Flaticon-open-letter: "\f104";
+    $font-Flaticon-speech-bubble: "\f105";
+    $font-Flaticon-school-pencil: "\f106";
+    $font-Flaticon-arrow: "\f107";
+    $font-Flaticon-head: "\f108";
+    $font-Flaticon-chat: "\f109";
+    $font-Flaticon-alert: "\f10a";
+    $font-Flaticon-gift: "\f10b";
+    $font-Flaticon-book-hand-drawn-open-pages: "\f10c";
+    $font-Flaticon-chicken-hand-drawn-outline: "\f10d";
+    $font-Flaticon-salad-bowl-hand-drawn-food: "\f10e";
+    $font-Flaticon-salad-1: "\f10f";
+    $font-Flaticon-covered-food-tray-on-a-hand-of-hotel-room-service: "\f110";
+    $font-Flaticon-plate-fork-and-knife: "\f111";
+    $font-Flaticon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle: "\f112";
+    $font-Flaticon-pizza-1: "\f113";
+    $font-Flaticon-crepe: "\f114";
+    $font-Flaticon-knife: "\f115";
+    $font-Flaticon-ice-cream: "\f116";
+    $font-Flaticon-meat-1: "\f117";
+    $font-Flaticon-kitchen: "\f118";
+    $font-Flaticon-wine: "\f119";
+    $font-Flaticon-cooking: "\f11a";
+    $font-Flaticon-croisant: "\f11b";
+    $font-Flaticon-taco: "\f11c";
+    $font-Flaticon-burger-and-potatoes: "\f11d";
+    $font-Flaticon-restaurant: "\f11e";
+    $font-Flaticon-coffe-cup: "\f11f";
+    $font-Flaticon-cheese: "\f120";
+    $font-Flaticon-chef: "\f121";
+    $font-Flaticon-salad: "\f122";
+    $font-Flaticon-meat: "\f123";
+    $font-Flaticon-dish: "\f124";
+    $font-Flaticon-muffin: "\f125";
+    $font-Flaticon-cupcake: "\f126";
+    $font-Flaticon-rice: "\f127";
+    $font-Flaticon-spaghetti: "\f128";
+    $font-Flaticon-fast-foot: "\f129";
+    $font-Flaticon-pizza: "\f12a";
+    $font-Flaticon-coffee-and-croisant: "\f12b";
+    $font-Flaticon-marmalade: "\f12c";
+    $font-Flaticon-sushi: "\f12d";
+    $font-Flaticon-thigh: "\f12e";
+    $font-Flaticon-cake: "\f12f";
+    $font-Flaticon-mushroom: "\f130";
+    $font-Flaticon-bacoon-and-egg: "\f131";
+    $font-Flaticon-watermellon: "\f132";
+    $font-Flaticon-map-sketch-with-a-placeholder: "\f133";
+    $font-Flaticon-speech-bubble-sketch: "\f134";
+    $font-Flaticon-halloween-october-31-calendar-page-sketch: "\f135";
+    $font-Flaticon-sketch: "\f136";
+    $font-Flaticon-arrow-point-hand-drawn-outline-pointing-to-right-direction: "\f137";
