@@ -45,6 +45,11 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
+.invalid-feedback{
+	color: red !important;
+	font-weight: bold !important;
+}
+
 p,
 ul {
 	font-size: 16px;

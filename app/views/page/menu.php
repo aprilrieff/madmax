@@ -31,9 +31,9 @@
         <!-- Page -->
         <div id="page-container" class="menu-page no-bg-small container">
             <?php flash("item_message"); ?>
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <?php if (!empty($_SESSION["userAdmin"]) && $_SESSION["userAdmin"] == 1): ?>
-                    <a class="btn btn-success" href="<?php echo URLROOT; ?>/menu/add">
+                    <a class="btn btn-success" style="margin-bottom: 4rem; width: 25%;"  href="<?php echo URLROOT; ?>/menu/add">
                         <i class="fa-solid fa-pencil"></i> Add Item
                     </a>
                 <?php endif ?>
@@ -41,7 +41,7 @@
                 <div class="nav-center-responsive"
                      style="display: flex !important; justify-content: space-evenly !important;">
                     <ul class="nav nav-pills " id="prices-nav">
-                        <li><a href="#tab_a" data-toggle="pill">Appetizers</a></li>
+                        <li><a href="#tab_a" class="active" data-toggle="pill">Appetizers</a></li>
                         <li><a href="#tab_b" data-toggle="pill">Entrees</a></li>
                         <li><a href="#tab_c" data-toggle="pill">Drinks</a></li>
                         <li><a href="#tab_d" data-toggle="pill">Desserts</a></li>
@@ -73,7 +73,7 @@
                                                 <div class="menu-item-name">
                                                     <?php echo $name ?>
                                                 </div>
-                                                <div class="menu-item-price">
+                                                <div class="menu-item-price">$
                                                     <?php echo $price ?>
                                                 </div>
                                                 <div class="menu-item-description">
@@ -103,7 +103,7 @@
                 </div>
 
                 <div class="tab-content col-md-12 res-margin">
-                    <div class="tab-pane fade in active" id="tab_b">
+                    <div class="tab-pane fade" id="tab_b">
                         <div class="row">
                             <!-- Menu: starters -->
                             <h3 class="text-center" style="margin-top: 4rem;">Entrees</h3>
@@ -127,7 +127,7 @@
                                                 <div class="menu-item-name">
                                                     <?php echo $name ?>
                                                 </div>
-                                                <div class="menu-item-price">
+                                                <div class="menu-item-price">$
                                                     <?php echo $price ?>
                                                 </div>
                                                 <div class="menu-item-description">
@@ -157,7 +157,7 @@
                 </div>
 
                 <div class="tab-content col-md-12 res-margin">
-                    <div class="tab-pane fade in active" id="tab_c">
+                    <div class="tab-pane fade" id="tab_c">
                         <div class="row">
                             <!-- Menu: starters -->
                             <h3 class="text-center" style="margin-top: 4rem;">Drinks</h3>
@@ -180,7 +180,7 @@
                                                 <div class="menu-item-name">
                                                     <?php echo $name ?>
                                                 </div>
-                                                <div class="menu-item-price">
+                                                <div class="menu-item-price">$
                                                     <?php echo $price ?>
                                                 </div>
                                                 <div class="menu-item-description">
@@ -210,7 +210,7 @@
                 </div>
 
                 <div class="tab-content col-md-12 res-margin">
-                    <div class="tab-pane fade in active" id="tab_d">
+                    <div class="tab-pane fade" id="tab_d">
                         <div class="row">
                             <!-- Menu: starters -->
                             <h3 class="text-center" style="margin-top: 4rem;">Desserts</h3>
@@ -233,7 +233,7 @@
                                                 <div class="menu-item-name">
                                                     <?php echo $name ?>
                                                 </div>
-                                                <div class="menu-item-price">
+                                                <div class="menu-item-price">$
                                                     <?php echo $price ?>
                                                 </div>
                                                 <div class="menu-item-description">

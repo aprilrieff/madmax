@@ -30,3 +30,9 @@ if($_SERVER["HTTP_HOST"] == "localhost") {
 //    define("DB_NAME", "kirkwood-php-test");
 }
 define("SITENAME", "Mad Max");
+define("ADDRESS", "1120 Depot Lane SE Cedar Rapids, IA 52401");
+define("PHONE", "(319)431-0004");
+define("EMAIL", "info@madmax.com");
+define("WEEK_HOURS", "11am to 10pm");
+define("WEEKEND_HOURS", "11am to 11pm");
+define("HOLIDAY_HOURS", "Closed");

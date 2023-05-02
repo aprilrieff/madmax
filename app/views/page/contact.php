@@ -43,17 +43,10 @@
                     <h5>Contact Info</h5>
                     <!-- Bottom Info -->
                     <ul class="list-unstyled contact-info">
-                        <li>(319) 431-0004</li>
-                        <li>Email: <a href="mailto:your@email.com">info@madmax.com</a></li>
-                        <li>1120 Depot Lane SE, Cedar Rapids, IA 52401</li>
+                        <li><?php echo PHONE?></li>
+                        <li>Email: <a href="mailto:your@email.com"><?php echo EMAIL?></a></li>
+                        <li><?php echo ADDRESS?></li>
                     </ul>
-                    <!--Social icons -->
-<!--                    <div class="social-media">-->
-<!--                        <a href="#" title=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a href="#" title=""><i class="fab fa-facebook"></i></a>-->
-<!--                        <a href="#" title=""><i class="fab fa-google-plus"></i></a>-->
-<!--                        <a href="#" title=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
                 </div>
                 <div class="box-padding col-lg-4">
                     <h5 class="text-center">Opening Hours:</h5>
@@ -63,19 +56,15 @@
                         <tbody>
                         <tr>
                             <td class="text-left">Mon - Thurs</td>
-                            <td class="text-right">11am to 10pm</td>
+                            <td class="text-right"><?php echo WEEK_HOURS?></td>
                         </tr>
                         <tr>
-                            <td class="text-left">Fri - Sat</td>
-                            <td class="text-right">11am to 11pm</td>
-                        </tr>
-                        <tr>
-                            <td class="text-left">Sunday</td>
-                            <td class="text-right">10am to 10pm</td>
+                            <td class="text-left">Fri - Sun</td>
+                            <td class="text-right"><?php echo WEEKEND_HOURS?></td>
                         </tr>
                         <tr>
                             <td class="text-left">Holidays</td>
-                            <td class="text-right">Closed</td>
+                            <td class="text-right"><?php echo HOLIDAY_HOURS?></td>
                         </tr>
                         </tbody>
                     </table>
@@ -152,42 +141,4 @@
         <div id="map"></div>
     </div>
 </section>
-
-
-<!--<section id="page" class="pages">-->
-<!--    <!-- jumbotron -->
-<!--    <div class="jumbotron dark-overlay" data-center="background-position: 50% 0px;"-->
-<!--         data-top-bottom="background-position: 50% -60px;">-->
-<!--        <div class="container">-->
-<!--            <!-- /col-md-6 -->
-<!--            <div class="jumbo-heading col-md-6 col-md-offset-3" data-start="opacity: 1" data-top="opacity: 0">-->
-<!--                <!-- Heading -->
-<!--                <h1>Contact</h1>-->
-<!--                <!-- Breadcrumb -->
-<!--                <ul class="breadcrumb">-->
-<!--                    <li><a href="index.html">Home</a></li>-->
-<!--                    <li class="active">Contact</li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--            <!-- /jumbo-heading -->
-<!--        </div>-->
-<!--        <!-- /container -->
-<!--    </div>-->
-<!--    <!-- /jumbotron -->
-<!--    <!-- Page -->
-<!--    <div id="page-container" class="contact-page no-bg-small container">-->
-<!--        <p class="lead text-center" style="color: black;">If you have any questions, comments, or just want to say hi, feel free to reach out to us at Mad Max Brewery. Our team is always happy to hear from our customers and to help in any way we can. You can contact us by phone at (319) 431-0004 or by email at info@madmaxbrewery.com. Come visit us for a cold beer and some delicious food, and don't hesitate to get in touch if you need anything at all. Cheers!-->
-<!--        </p>-->
-<!--        <h3 class="text-center" style="margin-top: 4rem;">Hours:</h3>-->
-<!--        <p class=" text-center" style="color: black;">Monday-Thursday: 11am to 10pm</p>-->
-<!--        <p class=" text-center" style="color: black;">Friday - Saturday: 10am to 11pm</p>-->
-<!--        <p class=" text-center" style="color: black;">Sunday: 9am to 10pm</p>-->
-<!--    </div>-->
-<!--</section>-->
-<!--<section id="contact-c" class="py-3 text-center bg-medium">-->
-<!--    <div class="container my-4">-->
-<!--        <div id="map"></div>-->
-<!--    </div>-->
-<!--</section>-->
-
 <?php require_once(APPROOT . "/views/inc/footer.php") ?>

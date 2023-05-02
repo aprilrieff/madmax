@@ -22,8 +22,8 @@
                             href="<?php echo URLROOT ?>/page/about">About</a></li>
 
 <!--                Menu -->
-                <li class="dropdown <?php echo($data["title"] == "menus" ? "active" : "text-medium") ?>">
-                    <a class="dropdown" data-toggle="dropdown" href="<?php echo URLROOT ?>/page/menu">Menu</a>
+                <li class="<?php echo($data["title"] == "All Items" ? "active" : "text-medium") ?>">
+                    <a href="<?php echo URLROOT ?>/page/menu">Menu</a>
                 </li>
 
                 <!--                Contact-->
@@ -32,18 +32,17 @@
 
                 <!--User-->
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo URLROOT ?>/user/login">User<b class="caret"></b></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">User<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <?php if (!isLoggedIn()): ?>
+                        <?php if (!isLoggedIn()) { ?>
                             <li class="<?php echo($data["title"] == "Register" ? "active" : "text-medium") ?>"><a
                                         href="<?php echo URLROOT ?>/user/register">Register</a></li>
                             <li class="<?php echo($data["title"] == "Login" ? "active" : "text-medium") ?>"><a
                                         href="<?php echo URLROOT ?>/user/login">Login</a></li>
-                        <?php endif; ?>
-                        <?php if (isLoggedIn()): ?>
+                        <?php } else { ?>
                             <li class="<?php echo($data["title"] == "Logout" ? "active" : "text-medium") ?>"><a
                                         href="<?php echo URLROOT ?>/user/logout">Logout</a></li>
-                        <?php endif; ?>
+                        <?php } ?>
                     </ul>
                 </li>
 

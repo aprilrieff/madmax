@@ -18,7 +18,7 @@
                         <input class="form-control <?php echo !empty($data["fullName_error"]) ? "is-invalid" : "" ?>"
                                type="text" id="fullName" name="fullName" value="<?php echo $data["fullName"] ?>">
                         <?php if (!empty($data["fullName_error"])): ?>
-                            <span class="invalid-feedback"><?php echo $data["fullName_error"] ?></span>
+                            <span class="invalid-feedback" style="color: red !important; font-weight: bold !important;"><?php echo $data["fullName_error"] ?></span>
                         <?php endif; ?>
                     </div>
 
@@ -27,25 +27,25 @@
                         <input class="form-control <?php echo !empty($data["email_error"]) ? "is-invalid" : "" ?>"
                                type="text" id="email" name="email" value="<?php echo $data["email"] ?>">
                         <?php if (!empty($data["email_error"])): ?>
-                            <span class="invalid-feedback"><?php echo $data["email_error"] ?></span>
+                            <span class="invalid-feedback" style="color: red !important; font-weight: bold !important;"><?php echo $data["email_error"] ?></span>
                         <?php endif; ?>
                     </div>
 
                     <div class="form-group mb-2">
-                        <label for="fullName">Password</label>
+                        <label for="password">Password</label>
                         <input class="form-control <?php echo !empty($data["password1_error"]) ? "is-invalid" : "" ?>"
                                type="password" id="password1" name="password1" value="<?php echo $data["password1"] ?>">
                         <?php if (!empty($data["password1_error"])): ?>
-                            <span class="invalid-feedback"><?php echo $data["password1_error"] ?></span>
+                            <span class="invalid-feedback" style="color: red !important; font-weight: bold !important;"><?php echo $data["password1_error"] ?></span>
                         <?php endif; ?>
                     </div>
 
                     <div class="form-group mb-2">
-                        <label for="fullName">Confirm Password</label>
+                        <label for="password2">Confirm Password</label>
                         <input class="form-control <?php echo !empty($data["password2_error"]) ? "is-invalid" : "" ?>"
                                type="password" id="password2" name="password2" value="<?php echo $data["password2"] ?>">
                         <?php if (!empty($data["password2_error"])): ?>
-                            <span class="invalid-feedback"><?php echo $data["password2_error"] ?></span>
+                            <span class="invalid-feedback" style="color: red !important; font-weight: bold !important;"><?php echo $data["password2_error"] ?></span>
                         <?php endif; ?>
                     </div>
                     <input type="submit" class="btn btn-primary" style="margin-bottom: 4rem !important;" value="Register">

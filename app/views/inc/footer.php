@@ -1,3 +1,4 @@
+<?php /** @var TYPE_NAME $data */ ?>
 <footer class="pattern text-light footer">
     <div class="container">
         <div class="col-lg-4">
@@ -14,8 +15,8 @@
                 <img src="<?php echo URLROOT; ?>/img/logo.png" class="img-responsive center-block" alt="Mad Max Logo">
             </div>
             <!-- /brand -->
-            <p>1120 Depot Lane SE, <br>
-                Cedar Rapids, IA 52401</p>
+            <p style="margin-top: 2rem;"><?php echo ADDRESS?></p>
+            <p><?php echo PHONE?></p>
         </div>
         <!-- /col-lg-4-->
         <div class="col-lg-4 res-margin">
@@ -68,17 +69,20 @@
 </footer>
 </div>
 <script src="<?php echo URLROOT; ?>/js/jquery.min.js"></script>
-<!--<script src="--><?php //echo URLROOT; ?><!--/js/bootstrap.min.js"></script>-->
+<script src="<?php echo URLROOT; ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo URLROOT; ?>/js/main.js"></script>
-
-
-<script src="<?php echo URLROOT; ?>/js/map.js"></script>
-<script src="<?php echo URLROOT; ?>/js/mc-validate.js"></script>
 <script src="<?php echo URLROOT; ?>/js/plugins.js"></script>
-<script src="<?php echo URLROOT; ?>/js/prefixfree.js"></script>
+<script src="<?php echo URLROOT; ?>/js/mc-validate.js"></script>
+
+
+
+<?php if($data["title"] == "Contact") {?>
 <script src="<?php echo URLROOT; ?>/js/reservation.js"></script>
-<script src="<?php echo URLROOT; ?>/js/respond.js"></script>
 <script src="<?php echo URLROOT; ?>/js/leaflet.js"></script>
-<!--<script src="--><?php //echo URLROOT; ?><!--/js/leaflet2.js"></script>-->
+<?php } ?>
+
+<!--<script src="--><?php //echo URLROOT; ?><!--/js/map.js"></script>-->
+<script src="<?php echo URLROOT; ?>/js/prefixfree.js"></script>
+<script src="<?php echo URLROOT; ?>/js/respond.js"></script>
 </body>
 </html>

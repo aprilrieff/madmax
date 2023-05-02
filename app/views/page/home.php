@@ -170,16 +170,16 @@ Check out our delicious menu! Stacked with mouthwatering burgers and entrees, th
                     <table class="table opening">
                         <tbody>
                         <tr>
-                            <td class="text-left">Monday to Friday</td>
-                            <td class="text-right">7 a.m to 7 p.m</td>
+                            <td class="text-left">Monday - Thursday</td>
+                            <td class="text-right"><?php echo WEEK_HOURS?></td>
                         </tr>
                         <tr>
-                            <td class="text-left">Weekends</td>
-                            <td class="text-right">7 a.m to 2 p.m</td>
+                            <td class="text-left">Friday - Sunday</td>
+                            <td class="text-right"><?php echo WEEKEND_HOURS?></td>
                         </tr>
                         <tr>
                             <td class="text-left">Holidays</td>
-                            <td class="text-right">Closed</td>
+                            <td class="text-right"><?php echo HOLIDAY_HOURS?></td>
                         </tr>
                         </tbody>
                     </table>

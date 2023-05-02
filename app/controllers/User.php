@@ -87,7 +87,7 @@ class User extends Controller {
             if(!empty($userFromDatabase) && password_verify($data["password1"], $userFromDatabase->password)) {
                 // The email and password matched
                 $_SESSION["userId"] = $userFromDatabase->user_id;
-                $_SESSION["userName"] = $userFromDatabase->name;
+                $_SESSION["userName"] = $userFromDatabase->fullName;
                 $_SESSION["userEmail"] = $userFromDatabase->email;
                 $_SESSION["userAdmin"] = $userFromDatabase->admin;
                 $_SESSION["userStatus"] = $userFromDatabase->status;

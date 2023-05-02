@@ -11,17 +11,12 @@ class Menu extends Controller
         $this->menuModel = $this->model("Menus");
     }
 
-    public function home() {
-        $menu = $this->menuModel->getItems();
-        $data = [
-            "title" => "All Items",
-            "menu" => $menu
-        ];
-        $this->view("page/all", $data);
-    }
-
 
     public function add() {
+        if(!isLoggedIn()) {
+            redirect("/page/home");
+            return;
+        }
         $data = [
             "title" => "Add New Item",
             "item_name" => "",
@@ -69,11 +64,10 @@ class Menu extends Controller
 
     public function edit($id) {
         $menu = $this->menuModel->getItem($id);
-        // TODO: Only if person is logged in
-//        if($menu->item_id != $_SESSION["userId"]) {
-//            redirect("/post");
-//            return;
-//        }
+        if(!isLoggedIn()) {
+            redirect("/page/home");
+            return;
+        }
         $data = [
             "title" => "Edit Item",
             "item_id" => $id,
@@ -125,12 +119,10 @@ class Menu extends Controller
 
     public function delete($id) {
         $menu = $this->menuModel->getItem($id);
-        // TODO: add if user is admin
-
-//        if($post->user_id != $_SESSION["userId"]) {
-//            redirect("/post");
-//            return;
-//        }
+        if(!isLoggedIn()) {
+            redirect("/page/home");
+            return;
+        }
         try {
             if ($this->menuModel->deleteItem($id)) {
                 flash("item_message", "Your item was deleted");
